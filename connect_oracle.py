@@ -14,7 +14,7 @@ cx_Oracle.init_oracle_client(lib_dir = "C:\\Users\\bengy\\Downloads\\python_tuto
 # running on lawtech.law.miami.edu
 
 connection = cx_Oracle.connect(
-        "begycsc423", "c07971", "lawtech.law.miami.edu/CSC_423")
+        "*********", "******", "lawtech.law.miami.edu/CSC_423")
 cursor = connection.cursor()
     
 
